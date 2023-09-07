@@ -4,11 +4,10 @@ def addItem(item):
    toDoList.append(item)
    return toDoList
 
-def deleteItem(item):   
+def deleteItem(item):  
    toDoList.remove(item)
    return toDoList
-if (item) == False:
-   print("error")
+elif print("error")
 
 
 
