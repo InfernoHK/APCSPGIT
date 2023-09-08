@@ -5,9 +5,14 @@ def addItem(item):
    return toDoList
 
 def deleteItem(item):  
-   toDoList.remove(item)
-   return toDoList
-elif print("error")
+   if item in toDoList:
+      toDoList.remove(item)
+      return toDoList
+   else:
+         print("error")
+
+
+
 
 
 
@@ -22,6 +27,7 @@ if userAns == "A":
 if userAns == "D":
    item = input("What item do you want to delete")
    deleteItem(item)
+else:
    userAns = input("Do you want to add to your list, delete an item or quit? A/D/Q")
    
    
